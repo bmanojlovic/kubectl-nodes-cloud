@@ -59,3 +59,8 @@ Replace 'k' with 'kubectl' when using the commands if 'k' is not aliased to 'kub
 
 Wrapper should find correct venv and run python inside of it now
 
+```
+   k node aws
+   k node azure
+   k node gcp
+```
