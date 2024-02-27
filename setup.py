@@ -7,5 +7,12 @@ setup(
     install_requires=[
         'tabulate',
     ],
+    entry_points={
+        'console_scripts': [
+            'kubectl-node-aws=kubectl_node:main',
+            'kubectl-node-azure=kubectl_node:main',
+            'kubectl-node-gcp=kubectl_node:main',
+        ],
+    },
     scripts=['kubectl-node-cloud'],
 )
