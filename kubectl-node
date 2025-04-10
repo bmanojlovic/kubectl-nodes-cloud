@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Call the kubectl-node-cloud-wrapper script
+kubectl-node-cloud-wrapper "$@"
