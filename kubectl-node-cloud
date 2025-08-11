@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-PROVIDER=$(basename "$0" | sed -e 's/kubectl-node-//')
-
-# Call the kubectl-nodes package with the cloud provider argument
-python -m kubectl_nodes "$PROVIDER" "$@"
